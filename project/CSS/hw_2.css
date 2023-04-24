@@ -1,0 +1,345 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*自己寫的*/
+
+.wrap{
+    margin:0 auto;
+    width:1024px;
+    box-sizing: border-box;
+
+}
+
+.bar{
+    width:1000px;
+    height:28px;
+    display: flex;
+    justify-content: end;
+    background-color: #f6f6f6;    
+}
+
+.facebook{
+    border-right: 2px solid #cccccc;
+    padding-right: 8px;
+    padding-top: 2px;
+}
+
+.facebook a{
+    text-decoration: none;
+}
+
+.facebook span{
+    color:#4460a0;
+    font-size: 14px;
+}
+
+.twitter{
+    padding-left: 8px;
+    padding-top: 2px;
+    padding-right: 8px;  
+}
+
+.twitter a{
+    text-decoration: none;
+}
+
+.twitter span{
+    font-size: 14px; 
+    color:#05abec;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width:1000px;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+    position: relative;
+}
+
+.header h1 a{
+    display: block;
+    background-image: url(https://i.imgur.com/2m0gir2.png);
+    width:175px;
+    height: 44px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space:nowrap;
+    padding-bottom: 10px;
+}
+.menu{
+    display: flex;
+    justify-content: end;
+    width:250px;
+    clear: both;
+    position: absolute;
+    left:750px;
+    z-index: 99;
+}
+
+.menu > li{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    width:80px;     
+}
+
+.menu li a {
+    color:#00cc99; 
+    background: white; 
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    height:39px;
+    padding-top: 15px;
+    transition: all .3s;  
+}
+
+.menu li a:hover{
+    background: #c7f9cc;
+}
+
+.menu >li >a.active1{
+    background:#77bfa3;
+    color:white;
+}
+
+.menu ul{
+    display: none;
+}
+
+
+.swiper {
+    width: 1000px;
+    height: 346px;
+    margin: auto 0;
+  }
+
+.swiper-slide img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.relative{
+    position: relative;
+    z-index: 1;
+}
+
+
+.absolute{
+    position: absolute;
+	font-size: 36px;
+	font-weight: bold;
+    color:white;
+    z-index: 2;
+    top:120px;
+    left:30px;
+}
+
+
+.course{
+    
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+.card {
+	width: 300px;
+	background-color: #ffffff;
+	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+	border-radius: 3px;
+}
+
+
+.card h2{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color:#333333;
+}
+
+.card p{
+    font-size: 15px;
+    color:#333333;
+    padding: 20px;
+}
+
+.card .img{
+    display: block;
+    margin:auto;
+    margin-bottom: 10px;
+
+}
+
+.table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:750px;
+    height: 300px;
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top: 50px;
+}
+
+.table th,.table td{
+    border-top:1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+    color: #333333;
+}
+
+.table td{
+    padding-top: 10px;
+}
+
+.table span{
+    color:#42b392;
+}
+
+caption{
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+thead th{
+    background-color: #f7f7f7;
+    padding:10px;
+    font-weight: bold;
+}
+
+.form{
+    width:1000px;
+    height: 405px;
+    background-image: linear-gradient(0deg, #009872 0%, #00644b 100%);
+    margin-top: 50px;
+}
+
+.form-h1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.textarea{
+	border-radius: 3px;
+    float: left;
+    padding-left: 30px;
+}
+
+.detail{
+   float: right;
+   padding-right: 35px;  
+}
+
+.detail input{
+    width:400px;
+    height: 30px;
+}
+
+.detail p{
+    color:#ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    
+}
+
+#sub{
+    width: 70px;
+	height: 32px;
+	background-color: #00cc99;
+    border:0px;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-top: 10px;
+    float: right;
+    color: #ffffff;
+}
+.clearfix{
+    clear: both;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer img{
+    padding: 20px;
+}
+
+.footer p{
+    padding: 20px;
+}
+
+.footer span{
+    color:#e12d80;
+}
+
+.top{
+    position: fixed;
+    bottom:0;
+    right:0;
+
+}
+
+.top img{
+    width:80px;
+    height:80px;
+}
+
+
