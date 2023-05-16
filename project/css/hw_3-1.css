@@ -117,6 +117,10 @@ img{
     background: #f7a072;
 }
 
+.this a{
+    background: #f7a072;
+    border-radius: 20px 20px 0 0;
+}
 
 .dark{
     position: absolute;
