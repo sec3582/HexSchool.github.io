@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $('.menu li').click(function(){
-        $(this).addClass('active-1').siblings().removeClass('active-1');
+    $('.menu li a').click(function(){
+        $(this).addClass('active-1').parent().siblings().find('a').removeClass('active-1');
     });
 });
