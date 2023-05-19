@@ -597,9 +597,10 @@ img{
 
     .about, .contact {
         width:80%;
-        margin-bottom: 25px;
         margin:0 auto;
+        margin-bottom: 25px;
     }
+
 
     .contact ul li{
         list-style-type:none;
