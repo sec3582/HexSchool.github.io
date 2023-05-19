@@ -383,6 +383,7 @@ img{
     .about, .contact{
         width:80%;
         margin-bottom: 25px;
+	padding-right:40px;
     }
 
     .about h5, .about p, .contact h5 {
