@@ -117,9 +117,6 @@ img{
     background: #f7a072;
 }
 
-.this a{
-    background: #f7a072;
-}
 
 .dark{
     position: absolute;
@@ -184,16 +181,14 @@ img{
         height:44px;
         line-height: 44px;
     }
-	
-    .this a{
-    background: #f7a072;
-    border-radius: 20px 20px 0 0;
-    }
-	
-	
+
     .menu li.active-1{
         background: #f7a072;
         border-radius: 20px 20px 0 0;
+    }
+
+    .menu li a:hover{
+       display:none;
     }
     
 
