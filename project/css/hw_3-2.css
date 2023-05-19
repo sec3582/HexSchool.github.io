@@ -666,6 +666,7 @@ img{
     .about, .contact {
         width:80%;
         margin-bottom: 25px;
+	padding-left:40px;
     }
 
     .contact ul li{
