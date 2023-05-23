@@ -200,10 +200,7 @@ img{
         background: #3d1101;
     }
 
-    .menu li.active-1{
-        background: #f7a072;
-        border-radius: 20px 20px 0 0;
-    }
+
 
     .menu li a:hover{
         border-bottom:none;
@@ -217,8 +214,10 @@ img{
         height: auto;
     }
 
-    .dark h2{
-        font-size: 32px;
+    #cover{
+        font-size: 40px;
+        color:white;
+        font-weight: bold;
     }
 
     .dark p{

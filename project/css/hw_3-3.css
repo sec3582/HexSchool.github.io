@@ -217,8 +217,10 @@ img{
         height: auto;
     }
 
-    .dark h2{
-        font-size: 32px;
+    #cover{
+        font-size: 40px;
+        color:white;
+        font-weight: bold;
     }
 
     .dark p{

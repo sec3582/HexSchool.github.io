@@ -144,14 +144,11 @@ img{
     height:15px;
 }
 
-.dark h2{
-    font-size: 40px;
-    color:white;
-}
 
 #cover{
     font-size: 40px;
     color:white;
+    font-weight: bold;
 }
 
 .dark p{
