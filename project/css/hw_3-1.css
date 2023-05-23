@@ -146,6 +146,7 @@ img{
 
 .dark h2{
     font-size: 40px;
+    color:white;
 }
 
 .dark p{
@@ -383,7 +384,7 @@ img{
     .about, .contact{
         width:80%;
         margin-bottom: 25px;
-	padding-right:40px;
+        padding-right: 40px;
     }
 
     .about h5, .about p, .contact h5 {

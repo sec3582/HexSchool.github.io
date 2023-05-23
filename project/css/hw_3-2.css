@@ -56,6 +56,7 @@ img{
     max-width:1049px;
     margin:0 auto;
     box-sizing: border-box;
+    background: #EFE9E7 100%;
 }
 
 .header{
@@ -143,6 +144,7 @@ img{
 
 .dark h2{
     font-size: 40px;
+    color:white;
 }
 
 .dark p{
@@ -666,7 +668,7 @@ img{
     .about, .contact {
         width:80%;
         margin-bottom: 25px;
-	padding-left:40px;
+        padding-left: 40px;
     }
 
     .contact ul li{
