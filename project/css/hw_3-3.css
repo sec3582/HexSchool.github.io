@@ -540,6 +540,39 @@ color:white;
      border: none;
 }
 
+/*愛心*/
+.heart{
+    position: absolute;
+    left:10px;
+    top:10px;
+    color:white;
+    font-size: 25px;
+}
+
+.heart2{
+    position: absolute;
+    left:10px;
+    top:10px;
+    color:white;
+    font-size: 25px;
+}
+
+/*促銷*/
+
+.ribbon{
+    position: absolute;
+    color: #FFF;
+    background: #00CC99;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    top: 20px;
+    right:-80px;
+    transform: rotate(-315deg);
+    
+}
+
+
 
 
 @media(max-width:768px){
