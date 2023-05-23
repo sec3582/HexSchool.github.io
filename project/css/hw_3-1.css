@@ -149,6 +149,11 @@ img{
     color:white;
 }
 
+#cover{
+    font-size: 40px;
+    color:white;
+}
+
 .dark p{
     margin-top: 20px;
     font-size: 20px;
