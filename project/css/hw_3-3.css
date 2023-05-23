@@ -142,10 +142,9 @@ img{
     height:15px;
 }
 
-#cover{
-font-size:40px;
-font-weight:bold;
-color:white;
+.dark h2{
+    font-size: 40px;
+    color:white;
 }
 
 .dark p{
@@ -460,7 +459,7 @@ color:white;
         position: absolute;
         top: -11px;
         right:0;
-	padding-bottom:11px;
+        padding-bottom: 11px;
     }
 }
 
@@ -481,6 +480,8 @@ color:white;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    overflow: hidden;
 }
 
 .goods li img{
@@ -559,20 +560,20 @@ color:white;
 
 /*促銷*/
 
-.ribbon{
-    position: absolute;
-    color: #FFF;
-    background: #00CC99;
-    width: 100%;
-    padding: 5px 0;
-    text-align: center;
-    top: 20px;
-    right:-80px;
-    transform: rotate(-315deg);
+.tag{
+    text-align: center; 
+    position: absolute; 
+    background-color:#00CC99 ;
+    color: #fff;
     
+    width: 80%;
+    height: 20px;
+    padding-top: 2%;
+    top: 30px;
+    left:45%;
+    transform: rotate(45deg);
+   
 }
-
-
 
 
 @media(max-width:768px){
@@ -584,7 +585,13 @@ color:white;
         width:48%;
         margin-right:2%;
     }
-}
+
+    .ribbon{
+        width: 60%;
+        right: -50px;
+    }
+
+    }
 
 @media(max-width:376px){
     .main-4 .goods li{
