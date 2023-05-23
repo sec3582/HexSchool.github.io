@@ -47,7 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-/*另外加的*/
 img{
     max-width: 100%;
     height:auto;
@@ -113,18 +112,18 @@ img{
     color: white;
 }
 
+.menu .this a{
+    background: #ffb703;
+    color: #6c584c;
+    font-size: 20px;  
+}
+
 .menu li a:hover{
     border-bottom: 3px solid white;
 }
 
-.menu li a.active-1{
-    background: #ffb703;
-    color: #6c584c;  
-    font-size: 20px;  
-}
 
-
-.header.dark{
+.dark{
     position: absolute;
     top:30%;
     left: 25%;
@@ -201,12 +200,10 @@ img{
         background: #3d1101;
     }
 
-    .menu .this a{
-        background: #ffb703;
-        color: #6c584c;  
-        font-size: 20px;
+    .menu li.active-1{
+        background: #f7a072;
+        border-radius: 20px 20px 0 0;
     }
-
 
     .menu li a:hover{
         border-bottom:none;
@@ -229,7 +226,6 @@ img{
     }
 
 }
-
 
 
 .main{
