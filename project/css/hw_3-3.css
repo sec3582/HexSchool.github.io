@@ -142,8 +142,9 @@ img{
     height:15px;
 }
 
-.dark h2{
+#cover{
     font-size: 40px;
+    font-weight: bold;
     color:white;
 }
 
