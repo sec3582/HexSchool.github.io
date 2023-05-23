@@ -112,14 +112,14 @@ img{
     color: white;
 }
 
-.menu li a:hover{
-    border-bottom: 3px solid white;
+.menu .this a{
+    background: #ffb703;
+    color: #6c584c;
+    font-size: 20px;  
 }
 
-.menu li a.active-1{
-    background: #ffb703;
-    color: #6c584c;  
-    font-size: 20px;  
+.menu li a:hover{
+    border-bottom: 3px solid white;
 }
 
 
@@ -142,7 +142,7 @@ img{
     height:15px;
 }
 
-.header.dark h2{
+.dark h2{
     font-size: 40px;
     color:white;
 }

@@ -114,14 +114,14 @@ img{
     color: white;
 }
 
-.menu li a:hover{
-    border-bottom: 3px solid white;
-}
-
-.menu li a.active-1{
+.menu .this a{
     background: #ffb703;
     color: #6c584c;  
-    font-size: 20px;  
+    font-size: 20px;
+}
+
+.menu li a:hover{
+    border-bottom: 3px solid white;
 }
 
 
