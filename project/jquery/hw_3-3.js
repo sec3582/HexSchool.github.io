@@ -1,8 +1,5 @@
 $(document).ready(function(){
 
-    $('.menu li a').click(function(){
-        $(this).toggleClass('active-1');
-    });
 
     //main-1
     $('.bugar-menu li a').click(function(){
