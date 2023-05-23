@@ -460,6 +460,7 @@ color:white;
         position: absolute;
         top: -11px;
         right:0;
+	padding-bottom:11px;
     }
 }
 
