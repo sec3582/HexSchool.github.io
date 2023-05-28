@@ -142,11 +142,9 @@ img{
     height:15px;
 }
 
-#cover{
-font-size:40px;
-font-weight:bold;
-color:white;
-	
+.dark h2{
+    font-size: 40px;
+    color:white;
 }
 
 .dark p{
@@ -322,11 +320,11 @@ color:white;
     }
 }
 
-.main-2-1{
+.main-2-chief-1{
     display: none;
 }
 
-.main-2{
+.main-2-chief{
     background-color: #3D1101;
     display: flex; 
     font-family: MicrosoftJhengHeiRegular;
@@ -371,21 +369,21 @@ color:white;
 
 @media(max-width:376px){
 
-    .main-2{
+    .main-2-chief{
         display: none;
     }
 
-    .main-2-1{
+    .main-2-chief-1{
         display: block;
     }
 
-    .main-2-1{
+    .main-2-chief-1{
         background-image: url(../images/main_chef_brown.png) ;
         width:100%;
         height:100%;
     }
     
-    .main-2-1 .chef-int-1{
+    .main-2-chief-1 .chef-int-1{
         background-color:rgba(206,212,218,0.5);
         width:85%;
         height:100%;
@@ -410,7 +408,7 @@ color:white;
 }
 
 @media(max-width:768px){
-    .main-2{
+    .main-2-chief{
         flex-direction: column;
         align-items: center;
     }
@@ -430,12 +428,12 @@ color:white;
     }
 }
 
-.main-3{
+.main-3-review{
     margin-top: 40px;
 
 }
 
-.main-3 .listen {
+.main-3-review .listen {
     color: #3D1101;
     font-size: 24px;
     font-weight: bold;
@@ -501,14 +499,14 @@ color:white;
     }
 }
 
-.main .main-4{
+.main .main-4-booking{
     margin-top: 30px; 
     padding-bottom: 30px;
     background: #FAFAFA 70%;
     
 }
 
-.main-4 .reservation{
+.main-4-booking .reservation{
     font-family: MicrosoftJhengHeiRegular;
     font-size: 24px;
     color: #3D1101;
