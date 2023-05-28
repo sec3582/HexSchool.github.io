@@ -239,20 +239,20 @@ img{
     
 }
 
-.main-1{
+.main-1-menu{
     width:23%;
     
     margin-right: 2%;
 }
 
-.main-1 h4{
+.main-1-menu h4{
     color:#3D1101;
     font-size: 20px;
     font-weight: bold;
     line-height: 32px;
 }
 
-.main-1 h4 .fa-leaf{
+.main-1-menu h4 .fa-leaf{
     margin-right: 10px;
 }
 
@@ -284,13 +284,13 @@ img{
         flex-direction: column;
     }
 
-    .main-1{
+    .main-1-menu{
         width:95%;
         margin: 0 auto;
         margin-bottom: 20px;
     }
 
-    .main-1 h4{
+    .main-1-menu h4{
         text-align: center;
     }
 
@@ -332,30 +332,30 @@ img{
 }
 
 
-.main-2{
+.main-2-container{
     width: 75%;
 }
 
-.main-3{
+.main-3-search{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
 
-.main-3 .search{
+.main-3-search .search{
     width: 70%;
     position: relative;
 }
 
 
-.main-3 .search .pure-form input[type=text]{
+.main-3-search .search .pure-form input[type=text]{
     border-radius:1px;
     width: 100%;
     border: 2px solid #3D1101;
     
 }
 
-.main-3 .search .pure-form .pure-button{
+.main-3-search .search .pure-form .pure-button{
     display: block;
     color:white;
     background: #3D1101;
@@ -366,14 +366,14 @@ img{
     right:0;
 }
 
-.main-3 .cart{
+.main-3-search .cart{
     width:30%;
     display: flex;
     justify-content: end;
     align-items: center; 
 }
 
-.main-3 .cart p{
+.main-3-search .cart p{
     font-size: 16px;
     font-weight: bold;
     padding: 10px;
@@ -396,11 +396,11 @@ img{
     margin-right: 1%;     
 }
 
-.main-3 .search .pure-form button.active-3{
+.main-3-search .search .pure-form button.active-3{
     background: #e76f51;
 }
 
-.main-3 .search .pure-form input.active-4{
+.main-3-search .search .pure-form input.active-4{
     border:2px solid #e76f51;
 }
 
@@ -410,28 +410,28 @@ img{
 
 
 @media(max-width:768px){
-    .main-2{
+    .main-2-container{
         width:95%;
         margin:0 auto;
     }
 
-    .main-3{
+    .main-3-search{
         flex-direction: column;
         align-items: end;
        
     }
 
-    .main-3 .search{
+    .main-3-search .search{
         width:100%;
         
     }
-    .main-3 .search .pure-form input[type=text]{
+    .main-3-search .search .pure-form input[type=text]{
         width:98%;
         margin-right: 1%;
         margin-bottom: 5px;
     }
 
-    .main-3 .cart{
+    .main-3-search .cart{
         width:100%;
     }
 
@@ -445,18 +445,18 @@ img{
 
 
 @media(max-width:476px){
-    .main-3 .search{
+    .main-3-search .search{
         width:95%;
         margin:0 auto;
     }
 
-    .main-3 .search .pure-form input[type=text]{
+    .main-3-search .search .pure-form input[type=text]{
         width:98%;
         margin-right: 1%;
         position: relative;
         margin-bottom: 5px;
     }
-    .main-3 .search .pure-form .pure-button{
+    .main-3-search .search .pure-form .pure-button{
         position: absolute;
         top: -11px;
         right:0;
@@ -464,7 +464,7 @@ img{
     }
 }
 
-.main-4 .goods{
+.main-4-goods .goods{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -537,7 +537,7 @@ img{
     margin-right: 5px;
 }
 
-.main-4 .goods button.active-6{
+.main-4-goods .goods button.active-6{
      background: #ffba08;  
      border: none;
 }
@@ -545,18 +545,22 @@ img{
 /*愛心*/
 .heart{
     position: absolute;
-    left:10px;
+    z-index: 9999;
     top:10px;
-    color:white;
-    font-size: 25px;
+    left:10px;
 }
 
-.heart2{
-    position: absolute;
-    left:10px;
-    top:10px;
+.heart a {
     color:white;
     font-size: 25px;
+   
+}
+
+.heart a.active-7 {
+    color:white;
+    font-size: 25px;
+    background-image: url(../images/like.png);
+    background-repeat: no-repeat;
 }
 
 /*促銷*/
@@ -578,11 +582,11 @@ img{
 
 
 @media(max-width:768px){
-    .main-4 .goods{
+    .main-4-goods .goods{
         margin: 0 auto;
     }
 
-    .main-4 .goods li{
+    .main-4-goods .goods li{
         width:48%;
         margin-right:2%;
     }
@@ -595,7 +599,7 @@ img{
     }
 
 @media(max-width:376px){
-    .main-4 .goods li{
+    .main-4-goods .goods li{
         width:98%;
         margin:0 auto;
         margin-bottom: 25px;
