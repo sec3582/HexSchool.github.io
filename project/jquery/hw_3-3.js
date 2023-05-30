@@ -25,4 +25,10 @@ $(document).ready(function(){
         event.preventDefault();
         $(this).toggleClass('active-7')
     })
+
+    //aside
+    $('.mobile-link').click(function(event){
+        $('.aside').toggleClass('open');
+        $('.dark').toggleClass('close');
+    });
 });
