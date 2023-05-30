@@ -773,9 +773,10 @@ img{
 
     .about, .contact {
         width:80%;
+        margin:0 auto;
         margin-bottom: 25px;
-        padding-left: 40px;
     }
+
 
     .contact ul li{
         list-style-type:none;

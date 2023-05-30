@@ -430,17 +430,20 @@ img{
 }
 
 .footer{
+    width:100%;
     background: #efe9e7;
     color:#3d1101;
     padding-bottom: 20px;
     display: flex;
     justify-content: space-around;
+    padding-top: 40px;
     
 }
 
 .about, .contact , .footer-cnt{
-    width:33.3333%;
+    width:30.3333%;
     padding-left:3%;
+   
 }
 
 .about h5, .contact h5 {
@@ -475,20 +478,54 @@ img{
 }
 
 .cnt-icon li a img{
-    width:50px;
+    max-width:50px;
     margin-left: 15px;
 }
 
 @media(max-width:768px){
     .footer{
+        flex-direction: column;
+    }
+
+    .about, .contact {
+        width:80%;
+        margin:0 auto;
+        margin-bottom: 25px;
+    }
+
+
+    .contact ul li{
+        list-style-type:none;
+        
+    }
+
+    .footer-cnt{
+        width:90%;
+    }
+
+    .footer-cnt p{
+        font-size: 49px;
+        text-align: end;
+    }
+
+    .footer-cnt .cnt-icon img{
+        width:31px;
+        height:33px;
+    }
+}
+
+
+
+
+
+@media(max-width:376px){
+    .footer{
     flex-direction: column;
-    align-items: center;
     }
 
     .about, .contact{
         width:80%;
         margin-bottom: 25px;
-        padding-right: 40px;
     }
 
     .about h5, .about p, .contact h5 {
