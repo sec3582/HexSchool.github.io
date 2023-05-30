@@ -47,9 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-
-
-/*另外加的*/
 img{
     max-width: 100%;
     height:auto;
@@ -59,6 +56,7 @@ img{
     max-width:1049px;
     margin:0 auto;
     box-sizing: border-box;
+    background: #EFE9E7 100%;
 }
 
 .header{
@@ -116,8 +114,8 @@ img{
 
 .menu .this a{
     background: #ffb703;
-    color: #6c584c;  
-    font-size: 20px;
+    color: #6c584c;
+    font-size: 20px;  
 }
 
 .menu li a:hover{
@@ -144,6 +142,10 @@ img{
     height:15px;
 }
 
+.dark h2{
+    font-size: 40px;
+    color:white;
+}
 
 #cover{
     font-size: 40px;
@@ -154,6 +156,14 @@ img{
 .dark p{
     margin-top: 20px;
     font-size: 20px;
+}
+
+.aside{
+    display: none;
+}
+
+.mobile-link{
+    display: none;
 }
 
 @media(max-width:768px){
@@ -204,10 +214,7 @@ img{
         background: #3d1101;
     }
 
-    .menu li.active-1{
-        background: #f7a072;
-        border-radius: 20px 20px 0 0;
-    }
+
 
     .menu li a:hover{
         border-bottom:none;
@@ -221,13 +228,108 @@ img{
         height: auto;
     }
 
-    .header.dark h2{
-        font-size: 32px;
+    #cover{
+        font-size: 40px;
+        color:white;
+        font-weight: bold;
     }
 
     .dark p{
         margin-bottom: 5px;
     }
+
+}
+
+/*漢堡選單*/
+
+@media(max-width:376px){
+
+.header{
+    overflow: hidden;
+}
+
+.nav{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:56px;
+    width:100%;
+}
+
+.nav .logo a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:94px;
+    height:24px;
+    background-size:contain;
+    margin-left: 1%;
+}
+
+.menu{
+    display: none;
+}
+
+
+.dark{
+        top:32%;
+        left:10%;
+        right:10%;
+        height: auto;
+}
+
+#cover{
+    font-size: 30px;
+}
+
+
+.aside{
+    display: none;
+    position: absolute;
+    background: #582f0e;
+    top:56px;
+    bottom:0px;
+    width:100%;
+    height:auto;   
+}
+
+.aside .aside-menu li a{
+    color:#6c584c;
+    background:#ffb703;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+    display:block;
+    font-size: 20px;
+}
+
+.aside .aside-menu li a:hover{
+    background: #e07a5f;
+    color: white;
+}
+
+/*處理按鈕*/ 
+.mobile-link{
+    color:#ffb703;
+    padding:5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    font-size: 40px;
+    margin-right: 2%;
+}
+
+
+.open.aside {
+    display: block;
+    transition: all 10s;
+}
+
+.close.dark{
+    display: none;
+}
+
 
 }
 
